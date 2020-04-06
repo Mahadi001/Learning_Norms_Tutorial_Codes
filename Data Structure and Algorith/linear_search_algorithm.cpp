@@ -24,8 +24,6 @@ int main()
    // incase of interger values
    // int result, n, arr[5] = {3, 6, 1, 2, 7};
    
-   
-   
     string arr[5] = {"Tom", "Harry", "John", "Smith", "Ron"};
     int result;
     char n[20];

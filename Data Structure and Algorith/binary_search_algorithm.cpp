@@ -5,17 +5,17 @@
 using namespace std;
 
 
-binary_search_algorithm(int arr[], int n, int total)
+int binary_search_algorithm(int arr[], int n, int total)
 {
     int first, mid, last;
     first = 0;
-    last = n;
+    last = total - 1;
     while(first <= last){
         mid = (first + last) / 2;
         if(arr[mid] == n){
             return mid;
         }
-        if(arr[mid] < n){
+        if(n > arr[mid]){
             first = mid + 1;
         }
         else{

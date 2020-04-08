@@ -15,7 +15,7 @@ binary_search_algorithm(int arr[], int n, int total)
         if(arr[mid] == n){
             return mid;
         }
-        if(arr[mid] > n){
+        if(arr[mid] < n){
             first = mid + 1;
         }
         else{
